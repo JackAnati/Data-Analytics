@@ -1,5 +1,7 @@
 # Data-Analytics
 
+# Module 1: The Basics of Data 
+
 # Chapter 1
 *What is Data Analytics?*
 Convert raw data into actionable insghts that guide decision-making processes within an organization.
@@ -59,3 +61,21 @@ When considering alphanumeric and text data types, you need to think about the c
 *Strong And Weak Typing*
 
 Weak typing loosely enforces data types. Spreadsheets use weak typing to help make it easier for people to accomplish their work. Spreadsheets default to an “automatic” data type and accommodate practically any value. When a person specifies a data type, it is loosely enforced compared to a database. For example, with a numeric spreadsheet cell, the software does not stop you from entering and storing characters.
+
+# *Unstructured data*
+While much of the data we use to record transactions is highly structured, most of the world's data is unstructured. Unstructured data is any type of data that does not fit neatly into the tabular model. Examples of unstructured data include digital images, audio recordings, video recordings, and open-ended survey responses. Analyzing unstructured data creates a wealth of information and insight. 
+
+# *Categories of Data*
+We try to fit data into structured and unstructured categories. The reality is that the world is not black and white, and not all data fits neatly into structured and unstructured categories. Semi-structured data represents the space between structured spreadsheets and unstructured videos.
+
+# Text file
+In addition, many coding languages have libraries that make it easy to write comma- or tab-delimited files. When a file is comma-delimited, it is known as a comma-separated values (CSV) file. Similarly, when a file is tab-delimited, it is called a tab-separated values (TSV) file.
+
+# Module 2: Data Preparation and Exploration
+# Exploring Database
+Two main database catagories:
+(i) Relational
+(ii) Non-relational
+
+
+
