@@ -77,5 +77,55 @@ Two main database catagories:
 (i) Relational
 (ii) Non-relational
 
+Benefits of Relational Model
+(i) Consistency
+(ii) Security
+(ii) Ease back-up and recovery
+
+Nonrelational Model
+
+Different types of nonrelational database
+(i)Key value
+(ii) Column store
+(iii) Graph
+(iv) Document store
+
+Benefits
+(i) Flexibility
+(ii) Scalability 
+(iii) Cost effectiveness
+
+# Database Use Cases
+Databases tend to support two major categories of data processing: Online Transactional Processing (OLTP) and Online Analytical Processing (OLAP).
+
+*Online Transactional Processing*
+OLTP systems handle the transactions we encounter every day. Example transactions include booking a flight reservation, ordering something online, or executing a stock trade. While the number of transactions a system handles on a given day can be very high, individual transactions process small amounts of data. OLTP systems balance the ability to write and read data efficiently.
+
+
+# Normalization
+Is a process for structuring a database in a way that minimize duplication of data.
+
+*Three types of database normalization*
+- 1NF - For a table to be in the first normal form, it must meet the following criteria:
+      - a single cell must not hold more than one value (atomicity)
+      - There must be a primary key for identification
+      - No duplicated rows or columns
+      - Each column must have only one value for each row in the table.
+- 2NF - The 1NF only eliminates repeating groups, not redundancy. That’s why there is 2NF.
+      - It’s already in 1NF
+      - Has no partial dependency. That is, all non-key attributes are fully dependent on a primary key.
+- 3NF - When a table is in 2NF, it eliminates repeating groups and redundancy, but it does not eliminate transitive partial dependency
+      - be in 2NF
+      - have no transitive partial dependency.
+
+*Online Analytical Processing*
+OLAP systems focus on the ability of organizations to analyze data. While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different. OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design. Typically, OLTP databases are in 3NF.
+
+# Schema Concept
+
+A *data mart* is a subset of a data warehouse. Data warehouses serve the entire organization, whereas data marts focus on the needs of a particular department within the organization. For example, suppose an organization wants to do analytics on their employees to understand retention and career evolution trends. To satisfy that use case, you can create a data mart focusing on the human resources subject area from the data warehouse. 
+A *data lake* stores raw data in its native format instead of conforming to a relational database structure. Using a data lake is more complex than a data warehouse or data mart, as it requires additional knowledge about the raw data to make it analytically useful. Relational databases enforce a structure that encapsulates business rules and business logic, both of which are missing in a data lake.
+
+
 
 
