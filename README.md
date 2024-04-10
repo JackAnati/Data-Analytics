@@ -126,6 +126,17 @@ OLAP systems focus on the ability of organizations to analyze data. While OLAP a
 A *data mart* is a subset of a data warehouse. Data warehouses serve the entire organization, whereas data marts focus on the needs of a particular department within the organization. For example, suppose an organization wants to do analytics on their employees to understand retention and career evolution trends. To satisfy that use case, you can create a data mart focusing on the human resources subject area from the data warehouse. 
 A *data lake* stores raw data in its native format instead of conforming to a relational database structure. Using a data lake is more complex than a data warehouse or data mart, as it requires additional knowledge about the raw data to make it analytically useful. Relational databases enforce a structure that encapsulates business rules and business logic, both of which are missing in a data lake.
 
+# Data Acquisition Concepts
+To perform analytics, you need data.
+
+*Integration*
+Data from transactional systems flow into data warehouses and data marts for analysis. Recall that OLTP and OLAP databases have different internal structures. You need to retrieve, reshape, and insert data to move data between operational and analytical environments. You can use a variety of methods to transfer data efficiently and effectively.
+
+One approach is known as extract, transform, and load (ETL). As the name implies, this method consists of three phases:
+Extract, load, and transform (ELT) is a variant of ETL.
+Extract:  In the first phase, you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
+Transform:  The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+Load:  The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
 
 
 
