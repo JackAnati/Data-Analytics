@@ -118,7 +118,7 @@ Is a process for structuring a database in a way that minimize duplication of da
       - be in 2NF
       - have no transitive partial dependency.
 
-*Online Analytical Processing*
+OLAP - *Online Analytical Processing*
 OLAP systems focus on the ability of organizations to analyze data. While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different. OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design. Typically, OLTP databases are in 3NF.
 
 # Schema Concept
@@ -129,7 +129,29 @@ A *data lake* stores raw data in its native format instead of conforming to a re
 # Data Acquisition Concepts
 To perform analytics, you need data.
 
-*Integration*
+Difference between Database, Data warehouse, and Data Lake?
+
+                        Database 
+- Designed to capture and record OLTP
+- Live, real-time data
+- Refer to relational database
+- Stored in table
+- Data highly detailed
+- flexible schema
+
+                        Data warehouse
+- Designed for analytical processing OLAP
+- Data is summarized
+- Rigid Schema. (how data is organized)
+- Data is refreshed from source systems - store current and hestorical.
+
+                        Data Lake
+- Designed to capture data.
+- Made for large amounts of data.
+- Used for ML and AI in its current state or for analytics with processing
+- Can organize and put into database or Data warehouse
+
+                        *Integration*
 Data from transactional systems flow into data warehouses and data marts for analysis. Recall that OLTP and OLAP databases have different internal structures. You need to retrieve, reshape, and insert data to move data between operational and analytical environments. You can use a variety of methods to transfer data efficiently and effectively.
 
 One approach is known as extract, transform, and load (ETL). As the name implies, this method consists of three phases:
@@ -139,4 +161,35 @@ Transform:  The second phase transforms the data. The goal is to reformat the da
 Load:  The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
 
 
+                        Data Manipulation
+1. Create new data      - INSERT - creates
+2. Read existing data   - SELECT - retrieves
+3. Update existing data - UPDATE - changes
+4. Delete existing data - DELETE - removes
+            SELECT <what>
+            FROM <source>
+                        SQL Considerations
+The keywords in SQL are case-insensitive. Howeever the case-sensitivity of column names and values depend on the database configuration.
 
+                        Filtering
+Add WHERE    SELECT FROM WHERE
+
+                        Filtering and logical Operations
+Add AND      SELECT, FROM, WHERE, AND
+
+                        Sorting
+Add ORDER BY      SELECT, FROM, WHERE, AND, OEDER BY
+
+ASC  - ascending order
+DESC - descending
+
+                        Aggregate Functions
+Summarized data helps quesions that executes have and aggregate functions are easy way. Also use aggregate function to filter data.
+
+                        Coomon SQL aggregate Functions
+1. COUNT  - returns the total number of rows of a query
+2. MIN    - returns the minimum value from the results of a query
+3. MAX    - returns the maximum value from the results of a query
+4. AVG    - returns the mathematics average of the results of a query
+5. SUM    - returns the sum of the results of a query
+6. STDDEV - returns the sample standard deviation of results of a query
