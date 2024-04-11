@@ -72,6 +72,7 @@ We try to fit data into structured and unstructured categories. The reality is t
 In addition, many coding languages have libraries that make it easy to write comma- or tab-delimited files. When a file is comma-delimited, it is known as a comma-separated values (CSV) file. Similarly, when a file is tab-delimited, it is called a tab-separated values (TSV) file.
 
 # Module 2: Data Preparation and Exploration
+# Chapter 3
 # Exploring Database
 Two main database catagories:
 (i) Relational
@@ -193,3 +194,16 @@ Summarized data helps quesions that executes have and aggregate functions are ea
 4. AVG    - returns the mathematics average of the results of a query
 5. SUM    - returns the sum of the results of a query
 6. STDDEV - returns the sample standard deviation of results of a query
+
+                        Logical Functions
+Logical functions can make data substitutions when retrieving data. Remember that a SELECT statement only retrieves data. The data in the underlying tables do not change when a SELECT runs. 
+                               The IFF function has the following syntax:
+IFF(boolean_expression, true_value, false_value)
+As you can see from the syntax, the IFF function expects the following three parameters:
+
+1. Boolean Expression:  The expression must return either TRUE or FALSE.
+2. True Value:  If the Boolean expression returns TRUE, the IFF function will return this value.
+3. False Value:  If the Boolean expression returns FALSE, the IFF function will return this value.
+
+
+# Chapter 4
