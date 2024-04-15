@@ -208,4 +208,14 @@ As you can see from the syntax, the IFF function expects the following three par
 
 # Chapter 4
 # Data Quality
+                  Data Quality Challenges
+
+- Data Duplication - occurs when data representing the same transaction is accidentally duplicated within a system. To resolve duplicate data issues, the company has a duplicate resolution process.
+- Redundant Data - redundant data happens when the same data elements exist in multiple places within a system. Frequently, data redundancy is a function of integrating multiple systems. Another root cause of data redundancy is an inappropriate database design.
+- Missing value - Another issue that impacts data quality is the concept of missing values. Missing values occur when you expect an attribute to contain data but nothing is there. Missing values are also known as null values. A null value is the absence of a value. A null is not a space, blank, or other character. There are situations when allowing nulls makes sense. To handle missing values, you first have to check for their existence. SQL offers functions to check for null and functions that can replace a null with a user-specified value. There are similar functions in both Python and R.
+- Invalid data - Invalid data are values outside the valid range for a given attribute. An invalid value violates a business rule instead of having an incorrect data type. As such, you have to understand the context of a system to determine whether or not a value is invalid.
+- Nonparametric Data - s data collected from categorical variables, which you read about in Chapter 2: Understanding Data. Sometimes the categories indicate differentiation, and sometimes they have a rank order associated with them. In this latter case, the rank order of the values is of significance, not the individual values themselves.
+- Data outliers - is a value that differs significantly from other observations in a dataset.
+- Specification Mismatch - describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values.
+- Data Type Validation - ensures that values in a dataset have a consistent data type. 
 
