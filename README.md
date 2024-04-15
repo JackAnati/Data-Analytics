@@ -208,7 +208,7 @@ As you can see from the syntax, the IFF function expects the following three par
 
 # Chapter 4
 # Data Quality
-                  Data Quality Challenges
+                        Data Quality Challenges
 
 - Data Duplication - occurs when data representing the same transaction is accidentally duplicated within a system. To resolve duplicate data issues, the company has a duplicate resolution process.
 - Redundant Data - redundant data happens when the same data elements exist in multiple places within a system. Frequently, data redundancy is a function of integrating multiple systems. Another root cause of data redundancy is an inappropriate database design.
@@ -219,3 +219,30 @@ As you can see from the syntax, the IFF function expects the following three par
 - Specification Mismatch - describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values.
 - Data Type Validation - ensures that values in a dataset have a consistent data type. 
 
+                        Data Manipulation Techniques
+
+  - Recoding data - is a technique you can use to map original values for a variable into new values to facilitate analysis. Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal. Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair color or eye color. Ordinal variables are categories with an inherent rank
+ 
+  - Derived Variables - is a new variable resulting from a calculation on an existing variable.
+ 
+  - Data Merge- uses a common variable to combine multiple datasets with different structures into a single dataset. Merging data improves data quality by adding new variables to your existing data.
+ 
+  - Data Blending - combines multiple sources of data into a single dataset at the reporting layer.
+ 
+  - Concatenation -  the merging of separate variables into a single variable. Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns.
+ 
+  - Datra Append - combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis.
+ 
+  - Imputation - is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
+
+*Few approaches an analyst can use for imputing values: * - 
+1. remove Missing Data - remove the missing rows with missing values without impacting the quality of your overall analysis
+2. replace with zero - replace missing value with zero
+3. replace with overall average - instead of using zero just use calculated overall average
+4. replace with most frequent (Mode) - use most frequently occuring value
+5. closet value average - use the value from the rows before and after the missing value
+6. reduction
+7. dimensionality reduction
+8. numerosity reduction
+9. 
+  
