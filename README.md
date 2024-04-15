@@ -22,7 +22,7 @@ would take when approaching a new project
 2. *Step 2* - Collect the data
 3. *Step 3* - Clean the data
 4. *Step 4* - Analyze the data
-5. *Step 5* - Intrprete and share the results
+5. *Step 5* - Interprete and share the results
 
 # golden Age of Analytics
 are Data, Storage, and/or Computing
