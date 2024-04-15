@@ -235,14 +235,14 @@ As you can see from the syntax, the IFF function expects the following three par
  
   - Imputation - is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
 
-*Few approaches an analyst can use for imputing values: * - 
+*Few approaches an analyst can use for imputing values:* - 
 1. remove Missing Data - remove the missing rows with missing values without impacting the quality of your overall analysis
 2. replace with zero - replace missing value with zero
 3. replace with overall average - instead of using zero just use calculated overall average
 4. replace with most frequent (Mode) - use most frequently occuring value
 5. closet value average - use the value from the rows before and after the missing value
-6. reduction
-7. dimensionality reduction
-8. numerosity reduction
-9. 
+6. reduction - is the process of shrinking an extensive dataset without negatively impacting its analytical value.
+7. dimensionality reduction - which removes attributes from a dataset. Removing attributes reduces the dataset's overall size
+8. numerosity reduction - which reduces the overall volume of data.
+      8.1. Aggregation - 
   
