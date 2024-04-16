@@ -231,7 +231,7 @@ As you can see from the syntax, the IFF function expects the following three par
  
   - Concatenation -  the merging of separate variables into a single variable. Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns.
  
-  - Datra Append - combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis.
+  - Data Append - combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis.
  
   - Imputation - is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
 
@@ -244,5 +244,12 @@ As you can see from the syntax, the IFF function expects the following three par
 6. reduction - is the process of shrinking an extensive dataset without negatively impacting its analytical value.
 7. dimensionality reduction - which removes attributes from a dataset. Removing attributes reduces the dataset's overall size
 8. numerosity reduction - which reduces the overall volume of data.
-      8.1. Aggregation - 
+      8.1. Aggregation - is the summarizetion of raw data for analysis, means of controlling privacy
+      8.2. Transposition - is when you want to turn rows into columns or columns into rows to facilitate analusis.
+      8.3. Normalization - converts data from different scales to the same scale
+      8.4. Min - Max Normalization - Straightforward approaches to normalization
+      8.5. Parsing / String -
+
+*Managing Data Quality*
+
   
