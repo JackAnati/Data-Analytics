@@ -241,15 +241,17 @@ As you can see from the syntax, the IFF function expects the following three par
 3. replace with overall average - instead of using zero just use calculated overall average
 4. replace with most frequent (Mode) - use most frequently occuring value
 5. closet value average - use the value from the rows before and after the missing value
-6. reduction - is the process of shrinking an extensive dataset without negatively impacting its analytical value.
-7. dimensionality reduction - which removes attributes from a dataset. Removing attributes reduces the dataset's overall size
-8. numerosity reduction - which reduces the overall volume of data.
-      8.1. Aggregation - is the summarizetion of raw data for analysis, means of controlling privacy
-      8.2. Transposition - is when you want to turn rows into columns or columns into rows to facilitate analusis.
-      8.3. Normalization - converts data from different scales to the same scale
-      8.4. Min - Max Normalization - Straightforward approaches to normalization
-      8.5. Parsing / String -
+- Reduction - is the process of shrinking an extensive dataset without negatively impacting its analytical value.
+- Dimensionality reduction - which removes attributes from a dataset. Removing attributes reduces the dataset's overall size
+- Numerosity reduction - which reduces the overall volume of data.
+      (i) Aggregation - is the summarizetion of raw data for analysis, means of controlling privacy
+      (ii) Transposition - is when you want to turn rows into columns or columns into rows to facilitate analusis.
+      (iii) Normalization - converts data from different scales to the same scale
+      (iv) Min - Max Normalization - Straightforward approaches to normalization
+      (v) Parsing / String -
 
-*Managing Data Quality*
+# *Managing Data Quality*
+Circumstances to Check for Quality
+
 
   
