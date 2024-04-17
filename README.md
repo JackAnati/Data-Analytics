@@ -251,7 +251,37 @@ As you can see from the syntax, the IFF function expects the following three par
       (v) Parsing / String -
 
 # *Managing Data Quality*
-Circumstances to Check for Quality
+                        Circumstances to Check for Quality
+Types of quality issues that can occur and have an overarching strategy to ensure the quality of your data.
+1. Data Acquisition
+2. Data Transformation and Conversion
+3. Data Manipulation
+4. Final product Preparation
+
+                        Automated Validation
+Automated data validation is faster and more accurate than manual methods. Automated data validation tools catch more existing errors and eliminate human error.
+
+                        Data Quality Dimensions
+it is essential to  consider multiple attributes of data when considering its quality.
+                        Six dimensions of data quality 
+1. Data Accuracy
+2. Data Completeness
+3. Data Consistency
+4. Data Timeliness
+5. Data Uniqueness
+6. Data Validity
+
+                        Data Quality Rules and Metrics
+With an understanding of data quality dimensions, you need to consider how to measure each of them in your quest to improve overall quality. Let's consider data conformity, which encompasses elements of accuracy, consistency, uniqueness, and validity. When consolidating data from multiple source systems into an analytics environment, one factor you want to assess is the conformity or nonconformity of data. If source data does not match the destination data type size and format, you have nonconformity.
+
+                        Methods to Validate Quality
+A sound approach to ensuring and improving data quality is by combining these methods appropriately.
+(i) Reasonable Expectations - s to determine whether or not the data in your analytics environment meets your reasonable expectations.
+(ii) Data Profiling - is to improving quality is to profile your data. Data profiling uses statistical measures to check for data discrepancies, including values that are missing, that occur either infrequently or too frequently, or that should be eliminated. Profiling can also identify irregular patterns within your data.
+(ii) Data Audits -  to keep in mind is auditing your data. Data audits look at your data and help you understand whether or not you have the data you need to operate your business. Data audits use data profiling techniques and can help identify data integrity and security issues.
+(iv) Sampling - for validating data quality is by examining a sample of your data. Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data.
+(v) Croos-Validation - use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
+
 
 
   
