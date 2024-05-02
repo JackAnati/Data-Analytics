@@ -282,7 +282,174 @@ A sound approach to ensuring and improving data quality is by combining these me
 (iv) Sampling - for validating data quality is by examining a sample of your data. Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data.
 (v) Croos-Validation - use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
 
+# Chapter 5
+# Data Analysis and Statistics.
+      Fundamentals of statistics
 
+Common Symbols in Statistics
+
+There are two kinds of statistics
+(i) Inferential Statistics
+(ii) Descriptive Statistics
+
+            Inferential Statistics
+Deals with taking a sample and analyze that sample and making judgmental claims about the population.
+
+            Descriptive Statistics
+Get data and talk about it
+
+*What is popualation?*
+refers to the total amount of "THINGS"
+
+*What is a sample?*
+Refers to a small part of the population that is used for study.
+- sample size - Total amount of the "THINGS" in a sample.
+
+*What we examine is variable*
+What we are studying and it can be measurable, countable and catagorized.
+we measure variable
+      Quantitative or categorical.
+
+ # Descriptive Statistics
+is a branch of statistics that summarizes and descibes data.
+
+Measures of frequency
+-help you nderstand how often something happens
+1. Count - understand how much data you're working with is to count the number of observations.
+2. Percentages - is a frequency measure that identifies the proportion of a given value for a variable with respect to the total number of rows in the dataset.
+3. Frequency - describes how often a specific value for a variable occurs in a dataset.
+
+   Measures of Central Tendency
+help to establish an overall perspective on a given dataset, an analyst explores various measures of central tendency.
+1. Mean- mean/ average. add all the numbers together then divide the total sum by the number of scored used.
+2. Median - is the middle value in a set of data
+3. Mode - is a number in a set of numbers that appears the most often.
+
+   Measures of Dispersion
+1. Range - the difference between the highest and the lowest values.
+2. Interquartile range - tells you the spread of the middle half of your distribution.
+3. Distribuion / propability distribution - is a function that illustrate probable values for a variables, and frequency with which they occur.
+
+   Many possible shapes of Distributions
+
+1. Normal Siatribution - is also know as bell-curve  is symmetricalli dispersed around its mean which gives it a distinctive bell-like shape
+2. Skewed distribution - has an asymmetrical shape, with single pek, and long tail on one side. skewed have either a right (positive) or left (negative) skew. When skew is to the right the meean is typically greater than median. on the other hand with a left skew typically has a mean less than median.
+3. Bimoodal Distribution - has two distinct modes, whereas a multimodal distribution has multiple distinct modes. When you visualize a bimodal distribution you see two separate peak.
+
+   Variance
+is a measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from that mean value.
+
+ Standard Deviation
+is the average deviation between individual values and the mean.
+
+Each Sample is Unique
+-keep in mind that each sample from a population is unique.
+1. Special normal distributions - central limit theorem and empirial rule combine to makethe normal distribution is the most important distribution in statistics.
+
+   Two special normal didtribution
+1. Standard normal distribution or Z- distribution is a special normal distribution with a mean of 0 and a standard deviation of 1.
+2. Students T-distribution - commonly know as the t-distribution is similar to the standard normal distribution in that it has a mean of 0 with bell-like shape.
+
+         Inferential Statistics
+is a branch of statistics that uses samples data to draw conclusions about the overall population.
+
+Hypothesis Testing
+-test consists of two statements, only one of which can be true.
+1. Consists of two components  - (i) null hypothesis
+                                 (ii) Alternative hypothesis
+2. When designing a hypothesis test, you first develop the null hypothesis (h0), and it presumes that there is no effect on the test you are conducting.
+3. Alternative hypothesis (Ha) presumes that the test you are conducting has an effect
+
+
+   *(i) Hypothesis testing with the Z-test*
+is appropriate when you have a sample size over 30 and a know population standard deviation, and you are using normal distribution
+
+      *(ii) Hypothesis Testing with the T-test
+frequently the standard deviation of the  population is unkown. its also possible that you will have sample size of less than 30.
+Z-test and T-test work well for numeric data.
+
+      *(iii) Hypothesis testing with Chi-Square
+is available when you need to assess the association of two catagorical variables.
+
+Simple Linear regression
+- is an analysis technique that explores the relationship between an independant variable and dependan variable.
+
+  Multiple Linear Regression
+- builds on that concept by examine effect of numerous independent variable on dependent variable.
+
+# Analysis Techniques
+Types of Analysis
+1. Trend - compare data overtime.
+2. Perfomance - assesses measurements against defied goals.
+
+   Explorig Data Analysis (EDA)
+
+steps to follow when conucting a EDA.
+1. Check data structure - ensure that data  is in the correct format for analysis
+2. Check data representation - become familiar with data
+3. Check if data is missing - check to see if any data is missing from the dataset and determine what to do next.
+4. Identify outliers - determine the cause of outliers and consider whether you want to leave them in the data before proceeding with any ongoing analysis.
+5. Summarize statistics - calculate summary statistics for each variable.
+6. check assumptions -
+
+# Module 3
+# Chapter 6 
+Data Analytics Tools:
+(i) Spreadsheets - is the most widely used tool in the world of analytics
+(ii) Microsofy Excel - is the most commonly used desktop speadsheet application.
+
+Programming Languages
+1. R - it is focused on craeting analytics application
+2. Python - is general-programming language
+3. Structured Query Language(SQL)- language of database
+   *sub langusages*
+1. Data Definition Language(DDL) - it is used to the structure of the dtabase itself.
+2. Data manipulation Languages(DML) - subset of SQLcommands that are used to work with the data inside of a database. they do nt change the database structure but they add, remove, and change the data inside a database.
+
+   DDL Commands
+1. Create - create new table withing database/ new database.
+2. ALTER - change the structure of  table that you've created.
+3. DROP - delete the entire table or database from your server.
+   
+   DML commands
+1. SELECT- retrieve information from database
+2. INSERT - add new records to a database table
+3. UPDATE - modify rows in the database
+4. DELETE - dalate rows from a database table
+
+Statistics Packages
+1. IBM SPSS -
+2. Stata - less widely used than the more popular SPPS tools
+3. Minitab -
+
+      Machine Learning Tools
+1. IBM SPSS MODELER -
+2. RAPIDMINER -
+
+      Analytics Suites
+1. IBM Cognos -
+   major components of cognos includes:-
+   1. Cognos connection - wen-based portal thatoffers access to other elements o cognos suites
+   2. Query studion - provides access to data query and basic reporting tools.
+   3. Reporting studio - offers advanced report design tools for complex reporting needs.
+   4. Analysis studio - enables advanced modeling and analytics on large datasets
+   5. Event stuido - provide real-time data monitoring
+   6. Metric studio - abality to create scorecards for business
+   7. Cognos Viewer - allows stakeholders to easily interact
+  
+Microsoft Power BI
+1. Power BI desktop - interact with data and publish
+2. Power BI - hosts Power BI capabilities in he cloud
+3. Mobile apps - Provide users of devices with access
+4. Power BI report builders - allow developer to create
+5. Power BI report server - hosts Power BI environment
+
+   Micro Strategy
+-is less well-know than similar tools from IBM and microsoft, but it does have a well-establish user base
+1. Demo - is SaaS that allows businesses to ingest their data and apply a variety of analytic and modeling cap.
+2. Datorama - is an analytics tools that focuss on a specific component of an oeganization business sales and marketing.
+   
+# Chapter 8
 # Data-Governance
 Data governance is the set of policies, procedures, and controls that an organization develops to safeguard its information while making it useful for transactional and analytic purposes. As the name implies, data governance is primarily a business function. Governments have a method for creating, interpreting, and enforcing laws. 
 
